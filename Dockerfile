@@ -1,4 +1,4 @@
-FROM tomcat:8.0.20-jre8
+FROM openjdk:17
 MAINTAINER GVS
 EXPOSE 8080
 COPY target/my-app /usr/local/tomcat/webapps/my-app
